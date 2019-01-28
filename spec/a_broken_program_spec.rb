@@ -1,6 +1,6 @@
 describe 'A broken program' do
 
-  it 'raises an error when loaded' do
+  it 'to not raises an error when loaded' do
     expect{
       load 'lib/a_broken_program.rb'
     }.to not raise_error
